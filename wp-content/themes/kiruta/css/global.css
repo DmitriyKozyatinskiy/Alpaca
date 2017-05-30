@@ -1,0 +1,10 @@
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url(font/ProximaNova.ttf);
+}

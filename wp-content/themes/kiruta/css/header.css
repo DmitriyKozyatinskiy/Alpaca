@@ -1,0 +1,71 @@
+.header_wrapper {
+    margin-bottom: 1.1em;
+    font-family: "Proxima Nova";
+}
+
+#masthead {
+    padding-top: 1em;
+}
+
+.header_left {
+    float: left;
+    width: 25%;
+}
+
+.header_main_logo {
+    height: 200px;
+}
+
+.header_middle {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.header_title {
+    height: 70px;
+    margin: 0 auto;
+}
+
+.header_phone {
+    float: left;
+    width: 50%;
+    margin: 0;
+    list-style: none;
+    border-right: solid 2px #9EA3A1;
+}
+
+.header_phone a {
+    color: #9EA3A1;
+}
+
+.header_workhours {
+    float: right;
+    width: 50%;
+}
+
+#header_search {
+    width: 90%;
+    border-radius: 17px;
+    font-style: italic;
+    padding-left: 30px;
+}
+
+.header_facebook {
+    float: right;
+    width: 25%;
+}
+
+.facebook_bubble {
+    height: 150px;
+    float: right;
+}
+
+.message_us {
+
+}
+
+.facebook_transparent {
+    height: 80px;
+    margin: 0 auto;
+}

@@ -14,6 +14,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link rel="stylesheet" href="<?php echo '/nenazhera/wp-content/themes/kiruta/css/header.css' ?>">
+<link rel="stylesheet" href="<?php echo '/nenazhera/wp-content/themes/kiruta/css/global.css' ?>">
 
 <?php wp_head(); ?>
 </head>
@@ -25,7 +27,38 @@
 
 	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
 		<div class="col-full">
-
+            <div class="header_wrapper clearfix">
+                <div class="header_left">
+                    <a href="#">
+                        <img src="<?php echo '/nenazhera/wp-content/themes/kiruta/img/cat-dog.png' ?>" class="header_main_logo">
+                    </a>
+                </div>
+                <div class="header_middle">
+                    <a href="#">
+                        <img src="<?php echo '/nenazhera/wp-content/themes/kiruta/img/title.png' ?>" class="header_title">
+                    </a>
+                    <h3>Доставка корму для песиків і котанів</h3>
+                    <ul class="header_phone">
+                        <li>
+                            <a href="tel:+380631407887">+38 063 140 7887</a>
+                        </li>
+                        <li>
+                            <a href="tel:+380684797447">+38 068 479 7447</a>
+                        </li>
+                    </ul>
+                    <p class="header_workhours">Працюємо з 10 до 22<br>без вихідних</p>
+                    <input type="search" placeholder="Знайти найкращий корм для улюбленця" id="header_search">
+                </div>
+                <div class="header_facebook">
+                    <a href="https://www.facebook.com/nenazhera/">
+                        <img src="<?php echo '/nenazhera/wp-content/themes/kiruta/img/bubble.png' ?>" class="facebook_bubble">
+                        <span class="message_us">Text</span>
+                    </a>
+                    <a>
+                        <img src="<?php echo '/nenazhera/wp-content/themes/kiruta/img/facebook_logo.png' ?>" class="facebook_transparent">
+                    </a>
+                </div>
+            </div>
 			<?php
 			/**
 			 * Functions hooked into storefront_header action
