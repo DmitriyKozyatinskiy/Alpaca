@@ -61,8 +61,19 @@
     float: right;
 }
 
-.message_us {
+.facebook_wrap {
+    position: relative;
+}
 
+.message_us {
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    left: 105px;
+    right: 45px;
+    color: #000000;
+    font-style: italic;
+    font-size: 17px;
 }
 
 .facebook_transparent {

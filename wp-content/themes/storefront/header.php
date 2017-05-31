@@ -29,12 +29,12 @@
 		<div class="col-full">
             <div class="header_wrapper clearfix">
                 <div class="header_left">
-                    <a href="#">
+                    <a href="/">
                         <img src="<?php echo '/nenazhera/wp-content/themes/kiruta/img/cat-dog.png' ?>" class="header_main_logo">
                     </a>
                 </div>
                 <div class="header_middle">
-                    <a href="#">
+                    <a href="/">
                         <img src="<?php echo '/nenazhera/wp-content/themes/kiruta/img/title.png' ?>" class="header_title">
                     </a>
                     <h3>Доставка корму для песиків і котанів</h3>
@@ -47,14 +47,19 @@
                         </li>
                     </ul>
                     <p class="header_workhours">Працюємо з 10 до 22<br>без вихідних</p>
-                    <input type="search" placeholder="Знайти найкращий корм для улюбленця" id="header_search">
+                    <form role="search" method="get" class="woocommerce-product-search" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+                        <label class="screen-reader-text" for="woocommerce-product-search-field-<?php echo isset( $index ) ? absint( $index ) : 0; ?>"><?php _e( 'Search for:', 'woocommerce' ); ?></label>
+                        <input type="search" placeholder="Знайти найкращий корм для улюбленця" id="header_search" name="s">
+<!--                    <input type="submit" value="--><?php //echo esc_attr_x( 'Search', 'submit button', 'woocommerce' ); ?><!--" />-->
+                        <input type="hidden" name="post_type" value="product" />
+                    </form>
                 </div>
                 <div class="header_facebook">
-                    <a href="https://www.facebook.com/nenazhera/">
-                        <img src="<?php echo '/nenazhera/wp-content/themes/kiruta/img/bubble.png' ?>" class="facebook_bubble">
-                        <span class="message_us">Напиши нам </span>
-                    </a>
-                    <a>
+                    <a href="https://www.facebook.com/nenazhera/" target="_blank">
+                        <div class="facebook_wrap">
+                            <img src="<?php echo '/nenazhera/wp-content/themes/kiruta/img/bubble.png' ?>" class="facebook_bubble">
+                            <span class="message_us">Напиши нам!<br>Це безкоштовно :)</span>
+                        </div>
                         <img src="<?php echo '/nenazhera/wp-content/themes/kiruta/img/facebook_logo.png' ?>" class="facebook_transparent">
                     </a>
                 </div>
