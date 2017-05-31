@@ -21,15 +21,19 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'wordpress');
+//define('DB_NAME', 'nenazher_db');
 
 /** MySQL database username */
 define('DB_USER', 'root');
+//define('DB_USER', 'nenazher_db');
 
 /** MySQL database password */
 define('DB_PASSWORD', '');
+//define('DB_PASSWORD', 'nngRJySK');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
+//define('DB_HOST', 'nenazher.mysql.ukraine.com.ua');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');

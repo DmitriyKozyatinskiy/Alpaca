@@ -52,7 +52,7 @@
                 <div class="header_facebook">
                     <a href="https://www.facebook.com/nenazhera/">
                         <img src="<?php echo '/nenazhera/wp-content/themes/kiruta/img/bubble.png' ?>" class="facebook_bubble">
-                        <span class="message_us">Text</span>
+                        <span class="message_us">Напиши нам </span>
                     </a>
                     <a>
                         <img src="<?php echo '/nenazhera/wp-content/themes/kiruta/img/facebook_logo.png' ?>" class="facebook_transparent">
